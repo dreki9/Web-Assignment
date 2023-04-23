@@ -1,0 +1,6 @@
+.xform {
+    box-sizing: border-box;
+    border: 1px solid red;
+    border-radius: 1%;
+    padding: 2rem 2rem;
+} 
