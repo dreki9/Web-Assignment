@@ -1,3 +1,5 @@
+<?php include "logout.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 

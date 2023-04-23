@@ -1,13 +1,4 @@
-<?php session_start();
-
-if (isset($_POST['logout'])) {
-    unset($_SESSION['username']);
-}
-
-if (!isset($_SESSION['username'])) {
-    header("location:login.php");
-    exit();
-}
+<?php include "logout.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -42,7 +33,7 @@ if (!isset($_SESSION['username'])) {
                 <div class="card-body d-flex justify-content-center align-items-center">
                     <i class='bx bxs-thermometer card-title'></i>
                     <div class="temperature">
-                        <h1>25°C</h1>
+                        <h1><?php echo(rand(0,38)) ?>°C</h1>
                     </div>
                 </div>
             </div>
@@ -50,7 +41,7 @@ if (!isset($_SESSION['username'])) {
                 <div class="card-body d-flex justify-content-center align-items-center">
                     <i class='bx bx-droplet card-title'></i>
                     <div class="humidity">
-                        <h1>67%</h1>
+                        <h1><?php echo(rand(20,80)) ?>%</h1>
                     </div>
                 </div>
             </div>
