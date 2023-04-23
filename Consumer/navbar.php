@@ -21,13 +21,13 @@
         <div class="collapse navbar-collapse" >
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Rooms</a>
+                    <a class="nav-link" href="rooms.php">Rooms</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Devices</a>
+                    <a class="nav-link" href="devices.php">Devices</a>
                 </li>
                 <li class="nav-item d-flex align-items-center mx-5">
                     <div class="d-flex justify-content-center align-items-center" >
